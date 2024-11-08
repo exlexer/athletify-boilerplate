@@ -1,0 +1,88 @@
+.btn {
+  text-transform: none;
+  font-weight: 400;
+  @apply btn-sm;
+}
+
+.btn-lg {
+  height: 3rem;
+  min-height: 3rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  font-size: 1.125rem;
+}
+
+.btn-xs {
+  width: 1rem;
+  height: 1rem;
+  min-height: 1rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  font-size: 0.875rem;
+}
+
+.btn-mobile {
+  min-height: auto;
+  height: auto;
+  padding: 1rem 0 1rem 0;
+}
+
+.btn-disabled {
+  @apply disabled:border-opacity-50 disabled:bg-opacity-50 disabled:bg-transparent;
+}
+
+.btn-filter {
+  height: 2.5rem;
+}
+
+.btn-link {
+  @apply font-normal;
+  height: 36px !important;
+  min-height: 36px !important;
+  padding: 0 !important;
+  text-decoration: none;
+}
+
+.btn-export {
+  @apply font-normal text-sm underline border-none;
+  color: black !important;
+  padding: 0 !important;
+  height: fit-content !important;
+  min-height: fit-content !important;
+}
+
+.btn-primary {
+  @apply border-primary-default bg-primary-default text-white font-medium;
+}
+
+.btn-primary.btn-disabled {
+  @apply border-primary-disabled bg-primary-disabled text-white font-medium;
+}
+
+.btn-primary.btn-link {
+  @apply border-transparent bg-transparent text-primary-default font-medium;
+}
+
+.btn-outline {
+  @apply border-gray-300 bg-transparent text-gray-700 font-medium;
+}
+
+.btn-outline:hover {
+  @apply border-gray-100 bg-gray-100 text-gray-700 font-medium;
+}
+
+.btn-outline.btn-warning {
+  @apply border-warning-background bg-transparent text-warning-background font-medium;
+}
+
+.btn-outline.btn-warning:hover {
+  @apply border-orange-800 bg-orange-800 text-white font-medium;
+}
+
+.btn-ghost {
+  @apply border-transparent bg-transparent text-gray-700 font-medium;
+}
+
+.btn-ghost:hover {
+  @apply border-gray-100 bg-gray-100 text-gray-700 font-medium;
+}

@@ -4,9 +4,26 @@
 
 html,
 body {
-  @apply bg-white dark:bg-gray-950;
+  @apply bg-white;
+  @apply text-gray-900;
 
   @media (prefers-color-scheme: dark) {
     color-scheme: dark;
+  }
+}
+
+
+.menu.dark li > *:not(ul):not(.menu-title):not(details) {
+  @apply border-l-2 rounded-none border-transparent text-white;
+
+  &:active,
+  &:focus,
+  &.active,
+  &.pending {
+    @apply border-white bg-primary-semidark;
+  }
+
+  &:hover {
+    @apply bg-primary-semidark;
   }
 }
