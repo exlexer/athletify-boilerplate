@@ -1,7 +1,7 @@
 {
   "name": "athletify-boilerplate",
   "private": true,
-  "sideEffects": false,
+  "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -11,34 +11,27 @@
     "typecheck": "tsc"
   },
   "dependencies": {
-    "@vitejs/plugin-react": "^4.3.3",
-    "clsx": "^2.1.1",
+    "@eslint/js": "^9.15.0",
     "daisyui": "^4.12.14",
-    "isbot": "^4.1.0",
+    "eslint": "^8.57.1",
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "eslint-plugin-react-refresh": "^0.4.14",
     "react": "^18.2.0",
     "react-daisyui": "^5.0.5",
     "react-dom": "^18.2.0",
-    "react-icons": "^5.3.0"
+    "react-icons": "^5.3.0",
+    "typescript-eslint": "^8.16.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.20",
     "@types/react-dom": "^18.2.7",
     "@typescript-eslint/eslint-plugin": "^6.7.4",
     "@typescript-eslint/parser": "^6.7.4",
+    "@vitejs/plugin-react": "^4.3.3",
     "autoprefixer": "^10.4.19",
-    "eslint": "^8.38.0",
-    "eslint-import-resolver-typescript": "^3.6.1",
-    "eslint-plugin-import": "^2.28.1",
-    "eslint-plugin-jsx-a11y": "^6.7.1",
-    "eslint-plugin-react": "^7.33.2",
-    "eslint-plugin-react-hooks": "^4.6.0",
     "postcss": "^8.4.38",
     "tailwindcss": "^3.4.4",
     "typescript": "^5.1.6",
-    "vite": "^5.1.0",
-    "vite-tsconfig-paths": "^4.2.1"
-  },
-  "engines": {
-    "node": ">=20.0.0"
+    "vite": "^5.1.0"
   }
 }
